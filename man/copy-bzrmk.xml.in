@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+        "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<refentry id="copy-bzrmk">
+
+        <refentryinfo>
+                <title>copy-bzrmk</title>
+                <productname>ignore-me</productname>
+
+                <authorgroup>
+                        <author>
+                                <contrib>Maintainer</contrib>
+                                <firstname>Sascha</firstname>
+                                <surname>Manns</surname>
+                                <email>@MAINTAINERS_EMAIL@</email>
+                        </author>
+                </authorgroup>
+
+        </refentryinfo>
+
+        <refmeta>
+                <refentrytitle>copy-bzrmk</refentrytitle>
+                <manvolnum>1</manvolnum>
+                <refmiscinfo class="manual">User Commands</refmiscinfo>
+        </refmeta>
+
+        <refnamediv>
+                <refname>copy-bzrmk</refname>
+                <refpurpose>Copies bzr.mk (A generator for .bzrignore) to current dir</refpurpose>
+        </refnamediv>
+
+        <refsynopsisdiv>
+                <cmdsynopsis>
+                        <command>copy-bzrmk</command>
+                        <para>Copies the in /usr/share/ignore-me installed bzr.mk into the current dir.</para>
+                </cmdsynopsis>
+                <cmdsynopsis>
+                        <command>make -f ./bzr.mk</command>
+                        <para>Installs the reference to the new bzr.mk into all Makefile.am of your project.</para>
+                </cmdsynopsis>
+        </refsynopsisdiv>
+
+        <refsect1>
+                <title>Description</title>
+
+                <para><command>copy-bzrmk</command> copies the installed bzr.mk into the current dir.
+                        After launching <command>make -f ./bzr.mk</command> you can use the next rules inside your
+                        Makefile.am:</para>
+
+                        <variablelist>
+                                <varlistentry>
+                                        <term>$(BZRIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</term>
+                                </varlistentry>
+                                <varlistentry>
+                                        <term>$(BZRIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</term>
+                                </varlistentry>
+                                <varlistentry>
+                                        <term>$(BZRIGNORE_MAINTAINERCLEANFILES_M4_LIBTOOL)</term>
+                                </varlistentry>
+                                <varlistentry>
+                                        <term>$(BZRIGNORE_MAINTAINERCLEANFILES_M4_GETTEXT)</term>
+                                </varlistentry>
+                        </variablelist>
+                <para>This Rules can used in your MAINTAINERCLEANFILES variable for cleanup.</para>
+        </refsect1>
+
+        <refsect1>
+                <title>Bugs</title>
+                <para>
+                    Place Bugs on: @BUG_REPORT_URL@.
+                </para>
+        </refsect1>
+
+        <refsect1>
+                <title>Feature Requests</title>
+                <para>
+                   Place Feature Requests on: @FEATURE_REQUESTS@.
+                </para>
+        </refsect1>
+
+        <refsect1>
+                <title>See Also</title>
+                <para>
+                        The Projectpage: @PACKAGE_URL@.
+                </para>
+        </refsect1>
+
+</refentry>
+

@@ -1,0 +1,189 @@
+# Copyright (C) 2017 Sascha Manns <Sascha.Manns@mailbox.org>
+# This file is distributed under the MIT license.
+#
+# Sascha Manns <Sascha.Manns@mailbox.org>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: ignore-me 0.1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/ignore-me\n"
+"POT-Creation-Date: 2017-10-04 15:44+0200\n"
+"PO-Revision-Date: 2017-10-04 16:00+0200\n"
+"Last-Translator: Sascha Manns <Sascha.Manns@mailbox.org>\n"
+"Language-Team: German <Sascha.Manns@mailbox.org>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../bin/copy-bzrmk.in.in:29 ../bin/copy-cvsmk.in.in:29
+#: ../bin/copy-gitmk.in.in:29 ../bin/copy-hgmk.in.in:29
+#: ../bin/copy-svnmk.in.in:29
+msgid "@prefix@"
+msgstr "@prefix@"
+
+#: ../bin/copy-bzrmk.in.in:30 ../bin/copy-cvsmk.in.in:30
+#: ../bin/copy-gitmk.in.in:30 ../bin/copy-hgmk.in.in:30
+#: ../bin/copy-svnmk.in.in:30
+msgid "@VERSION@"
+msgstr "@VERSION@"
+
+#: ../bin/copy-bzrmk.in.in:31 ../bin/copy-cvsmk.in.in:31
+#: ../bin/copy-gitmk.in.in:31 ../bin/copy-hgmk.in.in:31
+#: ../bin/copy-svnmk.in.in:31
+msgid "/share"
+msgstr "/share"
+
+#: ../bin/copy-bzrmk.in.in:32
+msgid "/ignore-me/bzr.mk"
+msgstr "/ignore-me/bzr.mk"
+
+#: ../bin/copy-bzrmk.in.in:33 ../bin/copy-cvsmk.in.in:33
+#: ../bin/copy-gitmk.in.in:33 ../bin/copy-hgmk.in.in:33
+#: ../bin/copy-svnmk.in.in:33
+msgid "/share/local"
+msgstr "/share/local"
+
+#: ../bin/copy-bzrmk.in.in:34 ../bin/copy-bzrmk.in.in:35
+#: ../bin/copy-bzrmk.in.in:36 ../bin/copy-bzrmk.in.in:37
+#: ../bin/copy-cvsmk.in.in:34 ../bin/copy-cvsmk.in.in:35
+#: ../bin/copy-cvsmk.in.in:36 ../bin/copy-cvsmk.in.in:37
+#: ../bin/copy-gitmk.in.in:34 ../bin/copy-gitmk.in.in:35
+#: ../bin/copy-gitmk.in.in:36 ../bin/copy-gitmk.in.in:37
+#: ../bin/copy-hgmk.in.in:34 ../bin/copy-hgmk.in.in:35
+#: ../bin/copy-hgmk.in.in:36 ../bin/copy-hgmk.in.in:37
+#: ../bin/copy-svnmk.in.in:34 ../bin/copy-svnmk.in.in:35
+#: ../bin/copy-svnmk.in.in:36 ../bin/copy-svnmk.in.in:37
+msgid "ignore-me"
+msgstr "ignore-me"
+
+#: ../bin/copy-bzrmk.in.in:42 ../bin/copy-cvsmk.in.in:42
+#: ../bin/copy-gitmk.in.in:42 ../bin/copy-hgmk.in.in:42
+#: ../bin/copy-svnmk.in.in:42
+msgid ""
+"\n"
+"    Copies a file to a destination\n"
+"    :param src: The full path to a source file\n"
+"    :param dest: The chosen destination\n"
+"    :return:\n"
+"    "
+msgstr ""
+"\n"
+"    Copies a file to a destination\n"
+"    :param src: The full path to a source file\n"
+"    :param dest: The chosen destination\n"
+"    :return:\n"
+"    "
+
+#: ../bin/copy-bzrmk.in.in:52 ../bin/copy-bzrmk.in.in:55
+#: ../bin/copy-cvsmk.in.in:52 ../bin/copy-cvsmk.in.in:55
+#: ../bin/copy-gitmk.in.in:52 ../bin/copy-gitmk.in.in:55
+#: ../bin/copy-hgmk.in.in:52 ../bin/copy-hgmk.in.in:55
+#: ../bin/copy-svnmk.in.in:52 ../bin/copy-svnmk.in.in:55
+#, python-format
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: ../bin/copy-bzrmk.in.in:58
+msgid "copy-bzrmk - .bzrignore creating tool - Version: ignore-me "
+msgstr "copy-bzrmk - .bzrignore Erstellungswerkzeug - Version: ignore-me "
+
+#: ../bin/copy-bzrmk.in.in:67
+msgid "/bzr.mk"
+msgstr "/bzr.mk"
+
+#: ../bin/copy-bzrmk.in.in:73
+msgid "Installed bzr.mk was copied to current directory."
+msgstr "Installierte bzr.mk wurde in das aktuelle Verzeichnis kopiert."
+
+#: ../bin/copy-bzrmk.in.in:75 ../bin/copy-cvsmk.in.in:75
+#: ../bin/copy-gitmk.in.in:75 ../bin/copy-hgmk.in.in:75
+#: ../bin/copy-svnmk.in.in:75
+msgid "Anything goes wrong. Please file a Bugreport."
+msgstr "Etwas ging schief. Bitte schreiben Sie einen Fehlerbericht."
+
+#: ../bin/copy-bzrmk.in.in:76
+msgid "More information: man copy-bzrmk."
+msgstr "Mehr Informationen: man copy-bzrmk."
+
+#: ../bin/copy-cvsmk.in.in:32
+msgid "/ignore-me/cvs.mk"
+msgstr "/ignore-me/cvs.mk"
+
+#: ../bin/copy-cvsmk.in.in:58
+msgid "copy-cvsmk - .cvsignore creating tool - Version: ignore-me "
+msgstr "copy-cvsmk - .cvsignore Erstellungswerkzeug - Version: ignore-me "
+
+#: ../bin/copy-cvsmk.in.in:67
+msgid "/cvs.mk"
+msgstr "/cvs.mk"
+
+#: ../bin/copy-cvsmk.in.in:73
+msgid "Installed cvs.mk was copied to current directory."
+msgstr "Installierte cvs.mk wurde in das aktuelle Verzeichnis kopiert."
+
+#: ../bin/copy-cvsmk.in.in:76
+msgid "More information: man copy-cvsmk."
+msgstr "Mehr Informationen: man copy-cvsmk."
+
+#: ../bin/copy-gitmk.in.in:32
+msgid "/ignore-me/git.mk"
+msgstr "/ignore-me/git.mk"
+
+#: ../bin/copy-gitmk.in.in:58
+msgid "copy-gitmk - .gitignore creating tool - Version: ignore-me "
+msgstr "copy-gitmk - .gitignore Erstellungswerkzeug - Version: ignore-me "
+
+#: ../bin/copy-gitmk.in.in:67
+msgid "/git.mk"
+msgstr "/git.mk"
+
+#: ../bin/copy-gitmk.in.in:73
+msgid "Installed git.mk was copied to current directory."
+msgstr "Installierte git.mk wurde in das aktuelle Verzeichnis kopiert."
+
+#: ../bin/copy-gitmk.in.in:76
+msgid "More information: man copy-gitmk."
+msgstr "Mehr Informationen: man copy-gitmk."
+
+#: ../bin/copy-hgmk.in.in:32
+msgid "/ignore-me/hg.mk"
+msgstr "/ignore-me/hg.mk"
+
+#: ../bin/copy-hgmk.in.in:58
+msgid "copy-hgmk - .hgignore creating tool - Version: ignore-me "
+msgstr "copy-hgmk - .hgignore Erstellungswerkzeug - Version: ignore-me "
+
+#: ../bin/copy-hgmk.in.in:67
+msgid "/hg.mk"
+msgstr "/hg.mk"
+
+#: ../bin/copy-hgmk.in.in:73
+msgid "Installed hg.mk to current directory."
+msgstr "Installierte hg.mk wurde in das aktuelle Verzeichnis kopiert."
+
+#: ../bin/copy-hgmk.in.in:76
+msgid "More information: man copy-hgmk."
+msgstr "Mehr Informationen: man copy-hgmk."
+
+#: ../bin/copy-svnmk.in.in:32
+msgid "/ignore-me/svn.mk"
+msgstr "/ignore-me/svn.mk"
+
+#: ../bin/copy-svnmk.in.in:58
+msgid "copy-svnmk - .svnignore creating tool - Version: ignore-me "
+msgstr "copy-svnmk - .svgignore Erstellungswerkzeug - Version: ignore-me "
+
+#: ../bin/copy-svnmk.in.in:67
+msgid "/svn.mk"
+msgstr "/svn.mk"
+
+#: ../bin/copy-svnmk.in.in:73
+msgid "Installed svn.mk was copied to current directory."
+msgstr "Installierte svn.mk wurde in das aktuelle Verzeichnis kopiert."
+
+#: ../bin/copy-svnmk.in.in:76
+msgid "More information: man copy-svnmk."
+msgstr "Mehr Informationen: man copy-svnmk."

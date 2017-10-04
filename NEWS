@@ -1,0 +1,69 @@
+===============================================================================
+bzrmk 1.3.0 - 2017-09-30
+===============================================================================
+
+    bzrmk 1.3.0 is the culmination of one months' work by 1 developer,
+    1 translator and testers.
+
+    New Features:
+
+      * Base functions
+
+            This is the first official release which implements base functions
+            running the bzr makefile.
+
+    Enhancements:
+
+      * Nothing yet
+
+
+    Notable Bugs Fixed:
+
+      * Nothing yet
+
+
+===============================================================================
+SOURCES / PACKAGES
+===============================================================================
+
+Sources
+-------
+
+    * bzrmk 1.3.0 Tarballs:
+      https://launchpad.net/bzrmk/1.x/1.3.0/+download/bzrmk-1.3.0.tar.xz
+
+Packages
+--------
+
+    Download and installation information is available here:
+
+    * https://answers.launchpad.net/bzrmk/+faq/2930
+
+===============================================================================
+REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
+===============================================================================
+
+    If you encounter any bad behavior with this release, please do not
+    hesitate to file bugs!
+
+    * https://bugs.launchpad.net/bzrmk
+
+
+===============================================================================
+VALUED BZRMK CONTRIBUTORS
+===============================================================================
+
+Contributors For This Release
+-----------------------------
+
+    The following people directly contributed to the release of this version
+    of bzrmk. Without their help, there would be no release!
+
+     Sascha Manns
+
+    The following people contributed updated translations to this release.
+    Without them, our project's reach would be much more limited.
+
+     Sascha Manns
+
+    Join the team on https://launchpad.net/~bzrmk-team.

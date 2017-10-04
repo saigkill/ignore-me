@@ -1,0 +1,76 @@
+#!@PYTHON@
+# copy-svn.py.in part of the ignore-me package.
+#
+# @copyright: Copyright (C) 2017 Sascha Manns <Sascha.Manns@mailbox.org>
+# @author: Sascha Manns
+# @license: GPL3+
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+import shutil
+import os
+import gettext
+import locale
+from pathlib import Path
+
+# Define some Pathes
+prefix = '@prefix@'
+version = '@VERSION@'
+datadir = prefix + '/share'
+svnmkhome = datadir + '/ignore-me/svn.mk'
+localedir = prefix + '/share/local'
+locale.bindtextdomain('ignore-me', localedir)
+locale.textdomain('ignore-me')
+gettext.bindtextdomain('ignore-me', localedir)
+gettext.textdomain('ignore-me')
+_ = gettext.gettext
+
+
+def copyFile(src, dest):
+    """
+    Copies a file to a destination
+    :param src: The full path to a source file
+    :param dest: The chosen destination
+    :return:
+    """
+    try:
+        shutil.copy(src, dest)
+    # eg. src and dest are the same file
+    except shutil.Error as e:
+        print('Error: %s' % e)
+    # eg. source or destination doesnt exist
+    except IOError as e:
+        print('Error: %s' % e.strerror)
+
+
+print(_('copy-svnmk - .svnignore creating tool - Version: ignore-me ' + version))
+
+# Get current dir
+dst = os.getcwd()
+
+# Run copyFile method for copying the new file
+copyFile(svnmkhome, dst)
+
+# Gets the full path to your copied file
+destfile = dst + '/svn.mk'
+
+# Check if the new file is placed in current dir.
+# Otherwise it gives an error messages.
+my_file = Path(str(destfile))
+if my_file.is_file():
+    print(_('Installed svn.mk was copied to current directory.'))
+else:
+    print(_('Anything goes wrong. Please file a Bugreport.'))
+print(_('More information: man copy-svnmk.'))

@@ -1,0 +1,85 @@
+# POT File for ignore-me
+# Copyright (C) 2017 Sascha Manns <Sascha.Manns@mailbox.org>
+# This file is distributed under the MIT license.
+#
+# Sascha Manns <Sascha.Manns@mailbox.org>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ignore-me 0.1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/ignore-me\n"
+"POT-Creation-Date: 2017-10-04 16:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#: ../bin/copy-bzrmk.in.in:58
+msgid "copy-bzrmk - .bzrignore creating tool - Version: ignore-me "
+msgstr ""
+
+#: ../bin/copy-bzrmk.in.in:73
+msgid "Installed bzr.mk was copied to current directory."
+msgstr ""
+
+#: ../bin/copy-bzrmk.in.in:75 ../bin/copy-cvsmk.in.in:75
+#: ../bin/copy-gitmk.in.in:75 ../bin/copy-hgmk.in.in:75
+#: ../bin/copy-svnmk.in.in:75
+msgid "Anything goes wrong. Please file a Bugreport."
+msgstr ""
+
+#: ../bin/copy-bzrmk.in.in:76
+msgid "More information: man copy-bzrmk."
+msgstr ""
+
+#: ../bin/copy-cvsmk.in.in:58
+msgid "copy-cvsmk - .cvsignore creating tool - Version: ignore-me "
+msgstr ""
+
+#: ../bin/copy-cvsmk.in.in:73
+msgid "Installed cvs.mk was copied to current directory."
+msgstr ""
+
+#: ../bin/copy-cvsmk.in.in:76
+msgid "More information: man copy-cvsmk."
+msgstr ""
+
+#: ../bin/copy-gitmk.in.in:58
+msgid "copy-gitmk - .gitignore creating tool - Version: ignore-me "
+msgstr ""
+
+#: ../bin/copy-gitmk.in.in:73
+msgid "Installed git.mk was copied to current directory."
+msgstr ""
+
+#: ../bin/copy-gitmk.in.in:76
+msgid "More information: man copy-gitmk."
+msgstr ""
+
+#: ../bin/copy-hgmk.in.in:58
+msgid "copy-hgmk - .hgignore creating tool - Version: ignore-me "
+msgstr ""
+
+#: ../bin/copy-hgmk.in.in:73
+msgid "Installed hg.mk to current directory."
+msgstr ""
+
+#: ../bin/copy-hgmk.in.in:76
+msgid "More information: man copy-hgmk."
+msgstr ""
+
+#: ../bin/copy-svnmk.in.in:58
+msgid "copy-svnmk - .svnignore creating tool - Version: ignore-me "
+msgstr ""
+
+#: ../bin/copy-svnmk.in.in:73
+msgid "Installed svn.mk was copied to current directory."
+msgstr ""
+
+#: ../bin/copy-svnmk.in.in:76
+msgid "More information: man copy-svnmk."
+msgstr ""
