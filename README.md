@@ -1,4 +1,4 @@
-# ignore-me @VERSION@
+# ignore-me 0.1.0
 
 1. [Introduction](#introduction)
 1. [Contributing](#contributing)
@@ -26,7 +26,7 @@ see the file 'COPYING' for more information.
 
 The official web site is:
 
-    @PACKAGE_URL@
+    https://launchpad.net/ignore-me
 
 ## Contributing
 
@@ -37,7 +37,7 @@ should check the TODO file first before sending email.
 
 ### Cool hacks
 
-* Open a bugreport on @BUG_REPORT_URL@.
+* Open a bugreport on https://bugs.launchpad.net/ignore-me.
 * Please use the -u flag when generating the patch as it makes the patch
   more readable.
 * Write a good explanation of what the patch does.
@@ -101,8 +101,8 @@ ignore-me requires:
 
 ### Simple install procedure:
 
-1. tar -xf ignore-me-@VERSION@.tar.xz	    
-1. cd ignore-me-@VERSION@			        
+1. tar -xf ignore-me-0.1.0.tar.xz	    
+1. cd ignore-me-0.1.0			        
 1. ./configure					                
 1. make					                        
 1. [ Become root if necessary ]
@@ -124,7 +124,7 @@ The development happens on Launchpad. Github is used as Mirror.
 
 ### Branches
 
-If you see this information on Github, so please keep in mind, that the active development happens on @PACKAGE_URL@.
+If you see this information on Github, so please keep in mind, that the active development happens on https://launchpad.net/ignore-me.
 
 #### `trunk` branch
 
@@ -147,14 +147,14 @@ Join the team on: https://launchpad.net/~ignore-me.
 
 ## Problem Reporting
 
-Bugs should be reported to @BUG_REPORT_URL@. You will need to create an
+Bugs should be reported to https://bugs.launchpad.net/ignore-me. You will need to create an
 account for yourself.
 
-See @BUG_REPORT_URL@ is your problem is already reported.
+See https://bugs.launchpad.net/ignore-me is your problem is already reported.
 
 ## Feature Requests
 
-Feature Requests are welcome on: @FEATURE_REQUESTS@.
+Feature Requests are welcome on: https://blueprints.launchpad.net/ignore-me.
 
 ## Thanks
 Thanks Behdad Esfahbod for his initial development of git.mk.

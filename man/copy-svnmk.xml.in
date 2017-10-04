@@ -2,10 +2,10 @@
 <!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
         "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 
-<refentry id="copy-svgmk">
+<refentry id="copy-svnmk">
 
         <refentryinfo>
-                <title>copy-svgmk</title>
+                <title>copy-svnmk</title>
                 <productname>ignore-me</productname>
 
                 <authorgroup>
@@ -20,46 +20,46 @@
         </refentryinfo>
 
         <refmeta>
-                <refentrytitle>copy-svgmk</refentrytitle>
+                <refentrytitle>copy-svnmk</refentrytitle>
                 <manvolnum>1</manvolnum>
                 <refmiscinfo class="manual">User Commands</refmiscinfo>
         </refmeta>
 
         <refnamediv>
-                <refname>copy-svgmk</refname>
-                <refpurpose>Copies svg.mk (A generator for .svgignore) to current dir</refpurpose>
+                <refname>copy-svnmk</refname>
+                <refpurpose>Copies svn.mk (A generator for .svnignore) to current dir</refpurpose>
         </refnamediv>
 
         <refsynopsisdiv>
                 <cmdsynopsis>
-                        <command>copy-svgmk</command>
-                        <para>Copies the in /usr/share/svgmk installed svg.mk into the current dir.</para>
+                        <command>copy-svnmk</command>
+                        <para>Copies the in /usr/share/ignore-me installed svn.mk into the current dir.</para>
                 </cmdsynopsis>
                 <cmdsynopsis>
-                        <command>make -f ./svg.mk</command>
-                        <para>Installs the reference to the new svg.mk into all Makefile.am of your project.</para>
+                        <command>make -f ./svn.mk</command>
+                        <para>Installs the reference to the new svn.mk into all Makefile.am of your project.</para>
                 </cmdsynopsis>
         </refsynopsisdiv>
 
         <refsect1>
                 <title>Description</title>
 
-                <para><command>copy-svgmk</command> copies the installed svg.mk into the current dir.
-                        After launching <command>make -f ./svg.mk</command> you can use the next rules inside your
+                <para><command>copy-svnmk</command> copies the installed svn.mk into the current dir.
+                        After launching <command>make -f ./svn.mk</command> you can use the next rules inside your
                         Makefile.am:</para>
 
                         <variablelist>
                                 <varlistentry>
-                                        <term>$(SVGIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</term>
+                                        <term>$(SVNIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</term>
                                 </varlistentry>
                                 <varlistentry>
-                                        <term>$(SVGIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</term>
+                                        <term>$(SVNIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</term>
                                 </varlistentry>
                                 <varlistentry>
-                                        <term>$(SVGIGNORE_MAINTAINERCLEANFILES_M4_LIBTOOL)</term>
+                                        <term>$(SVNIGNORE_MAINTAINERCLEANFILES_M4_LIBTOOL)</term>
                                 </varlistentry>
                                 <varlistentry>
-                                        <term>$(SVGIGNORE_MAINTAINERCLEANFILES_M4_GETTEXT)</term>
+                                        <term>$(SVNIGNORE_MAINTAINERCLEANFILES_M4_GETTEXT)</term>
                                 </varlistentry>
                         </variablelist>
                 <para>This Rules can used in your MAINTAINERCLEANFILES variable for cleanup.</para>

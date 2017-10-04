@@ -17,8 +17,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# The latest version of this file can be downloaded from: TODO
-BZR_MK_URL="http://saigkill.tuxfamily.org/dl/bzr.mk"
+# The latest version of this file can be downloaded from:
+BZR_MK_URL="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/bzr.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me
@@ -286,6 +286,7 @@ $(srcdir)/.bzrignore: Makefile.am $(top_srcdir)/bzr.mk
 			.idea \
 			.svn \
 			.svnignore \
+			build-aux \
 			$(BZRIGNOREFILES) \
 			$(CLEANFILES) \
 			$(PROGRAMS) $(check_PROGRAMS) $(EXTRA_PROGRAMS) \

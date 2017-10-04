@@ -18,8 +18,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# The latest version of this file can be downloaded from: TODO
-GIT_MK_URL = https://raw.githubusercontent.com/behdad/git.mk/master/git.mk
+# The latest version of this file can be downloaded from:
+GIT_MK_URL ="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/git.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me
@@ -352,6 +352,7 @@ $(srcdir)/.gitignore: Makefile.am $(top_srcdir)/git.mk
 			.idea \
 			.svn \
 			.svnignore \
+			build-aux \
 			$(GITIGNOREFILES) \
 			$(CLEANFILES) \
 			$(PROGRAMS) $(check_PROGRAMS) $(EXTRA_PROGRAMS) \

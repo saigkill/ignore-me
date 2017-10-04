@@ -1,16 +1,21 @@
 ===============================================================================
-bzrmk 1.3.0 - 2017-09-30
+ignore-me 0.1.0 - 2017-10-04
 ===============================================================================
 
-    bzrmk 1.3.0 is the culmination of one months' work by 1 developer,
+    ignore-me 0.1.0 is the culmination of two days' work by 1 developer,
     1 translator and testers.
 
     New Features:
 
       * Base functions
 
-            This is the first official release which implements base functions
-            running the bzr makefile.
+            This is the first official release which implements:
+
+            * Supports BZR (Closes: LP#1721196)
+            * Supports CVS (Closes: LP#1721197)
+            * Supports GIT (Closes: LP#1721195)
+            * Supports HG (Closes: LP#1721232)
+            * Supports SVN (Closes: LP#1721198)
 
     Enhancements:
 
@@ -29,15 +34,15 @@ SOURCES / PACKAGES
 Sources
 -------
 
-    * bzrmk 1.3.0 Tarballs:
-      https://launchpad.net/bzrmk/1.x/1.3.0/+download/bzrmk-1.3.0.tar.xz
+    * ignore-me 0.1.0 Tarballs:
+      https://launchpad.net/ignore-me/0.x/0.1.0/+download/ignore-me-0.1.0.tar.xz
 
 Packages
 --------
 
     Download and installation information is available here:
 
-    * https://answers.launchpad.net/bzrmk/+faq/2930
+    * https://answers.launchpad.net/ignore-me/+faqs
 
 ===============================================================================
 REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
@@ -46,19 +51,20 @@ REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
     If you encounter any bad behavior with this release, please do not
     hesitate to file bugs!
 
-    * https://bugs.launchpad.net/bzrmk
+    * https://bugs.launchpad.net/ignore-me
 
 
 ===============================================================================
-VALUED BZRMK CONTRIBUTORS
+VALUED IGNORE-ME CONTRIBUTORS
 ===============================================================================
 
 Contributors For This Release
 -----------------------------
 
     The following people directly contributed to the release of this version
-    of bzrmk. Without their help, there would be no release!
+    of ignore-me. Without their help, there would be no release!
 
+     Behdad Esfahbod
      Sascha Manns
 
     The following people contributed updated translations to this release.
@@ -66,4 +72,4 @@ Contributors For This Release
 
      Sascha Manns
 
-    Join the team on https://launchpad.net/~bzrmk-team.
+    Join the team on https://launchpad.net/~ignore-me.

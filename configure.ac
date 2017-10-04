@@ -61,10 +61,10 @@ AM_MAINTAINER_MODE([enable])
 dnl ***********************************************************************
 dnl Internationalization
 dnl ***********************************************************************
-GETTEXT_PACKAGE=bzrmk
+GETTEXT_PACKAGE=ignore-me
 AC_SUBST([GETTEXT_PACKAGE])
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [GETTEXT package name])
-AM_GNU_GETTEXT_VERSION([0.19.7])
+AM_GNU_GETTEXT_VERSION([0.19.2])
 AM_GNU_GETTEXT([external])
 
 
@@ -90,9 +90,21 @@ AC_CONFIG_FILES([
 	bin/Makefile
 	bin/copy-bzrmk.in
 	bin/copy-bzrmk
+	bin/copy-cvsmk.in
+	bin/copy-cvsmk
+	bin/copy-gitmk.in
+	bin/copy-gitmk
+	bin/copy-hgmk.in
+	bin/copy-hgmk
+	bin/copy-svnmk.in
+	bin/copy-svnmk
 	man/Makefile
 	man/copy-bzrmk.xml
-    po/Makefile.in
+	man/copy-cvsmk.xml
+	man/copy-gitmk.xml
+	man/copy-hgmk.xml
+	man/copy-svnmk.xml
+	po/Makefile.in
     src/Makefile
 ],[],
 [API_VERSION='$API_VERSION'])

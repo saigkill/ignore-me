@@ -14,7 +14,7 @@ man_MANS = \
 	copy-cvsmk.1 \
 	copy-gitmk.1 \
 	copy-hgmk.1 \
-	copy-svgmk.1
+	copy-svnmk.1
 
 xml_files = $(man_MANS:.1=.xml)
 
@@ -23,7 +23,7 @@ EXTRA_DIST = $(xml_files) \
 			copy-cvsmk.xml.in \
 			copy-gitmk.xml.in \
 			copy-hgmk.xml.in \
-			copy-svgmk.xml.in
+			copy-svnmk.xml.in
 
 CLEANFILES = \
 			$(man_MANS) 	\
@@ -31,7 +31,7 @@ CLEANFILES = \
 			copy-cvsmk.xml	\
 			copy-gitmk.xml	\
 			copy-hgmk.xml	\
-			copy-svgmk.xml	\
+			copy-svnmk.xml	\
 			Makefile 		\
 			Makefile.in
 
@@ -41,9 +41,11 @@ DISTCLEANFILES = \
 			copy-cvsmk.xml	\
 			copy-gitmk.xml	\
 			copy-hgmk.xml	\
-			copy-svgmk.xml	\
+			copy-svnmk.xml	\
 			Makefile 		\
 			Makefile.in
 
 
 -include $(top_srcdir)/bzr.mk
+
+-include $(top_srcdir)/git.mk

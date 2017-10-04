@@ -74,3 +74,4 @@ MAINTAINERCLEANFILES = 	\
 	$(NULL)
 
 -include $(top_srcdir)/bzr.mk
+-include $(top_srcdir)/git.mk

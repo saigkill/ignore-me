@@ -17,8 +17,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# The latest version of this file can be downloaded from: TODO
-cvs_MK_URL="http://saigkill.tuxfamily.org/dl/cvs.mk"
+# The latest version of this file can be downloaded from:
+CVS_MK_URL="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/cvs.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me
@@ -160,7 +160,7 @@ cvs-mk-install:
 	fi; done; test -z "$$any_failed"
 
 cvs-mk-update:
-	wget $(cvs_MK_URL) -O $(top_srcdir)/cvs.mk
+	wget $(CVS_MK_URL) -O $(top_srcdir)/cvs.mk
 
 .PHONY: cvs-all cvs-mk-install
 
@@ -286,6 +286,7 @@ $(srcdir)/.cvsignore: Makefile.am $(top_srcdir)/cvs.mk
 			.idea \
 			.svn \
 			.svnignore \
+			build-aux \
 			$(cvsIGNOREFILES) \
 			$(CLEANFILES) \
 			$(PROGRAMS) $(check_PROGRAMS) $(EXTRA_PROGRAMS) \

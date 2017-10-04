@@ -12,4 +12,10 @@ dist_ignoreme_DATA = bzr.mk \
 			hg.mk \
 			svn.mk
 
+CLEANFILES = \
+		Makefile \
+		Makefile.in
+
 -include $(top_srcdir)/bzr.mk
+
+-include $(top_srcdir)/git.mk

@@ -6,16 +6,22 @@ Pre-release:
 * Update CHANGELOG (make CHANGELOG)
 * Update NEWS
 * Update copyright years if needed, in the following paths:
-  + bin/copy-bzrmk
+  + bin/copy-*.in.in
+  + po/ignore-me.pot
+  + po/de.po
+  + src/*.mk
 * Check version in configure.ac (don't forget the display version)
 * Run `make dist`
 * Run `make distcheck`
 * Run `debuild`
 * Run `pbuilder`
 * Run `make clean`
-* Run bzr tag x.x.x
+* Run `bzr tag x.x.x`
+* Run `git tag x.x.x`
 * Commit everything to bzr trunk
 * Commit everything to bzr series
+* Commit everything to git master
+* Push all
 * Check Launchpad recipe
 
 Release:

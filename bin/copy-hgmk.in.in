@@ -1,5 +1,5 @@
 #!@PYTHON@
-# copy-hg.py.in part of the ignore-me package.
+# copy-hgmk is part of the ignore-me package.
 #
 # @copyright: Copyright (C) 2017 Sascha Manns <Sascha.Manns@mailbox.org>
 # @author: Sascha Manns

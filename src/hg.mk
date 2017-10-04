@@ -17,8 +17,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# The latest version of this file can be downloaded from: TODO
-hg_MK_URL="http://saigkill.tuxfamily.org/dl/hg.mk"
+# The latest version of this file can be downloaded from:
+HG_MK_URL="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/hg.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me
@@ -160,7 +160,7 @@ hg-mk-install:
 	fi; done; test -z "$$any_failed"
 
 hg-mk-update:
-	wget $(hg_MK_URL) -O $(top_srcdir)/hg.mk
+	wget $(HG_MK_URL) -O $(top_srcdir)/hg.mk
 
 .PHONY: hg-all hg-mk-install
 
@@ -286,6 +286,7 @@ $(srcdir)/.hgignore: Makefile.am $(top_srcdir)/hg.mk
 			.idea \
 			.svn \
 			.svnignore \
+			build-aux \
 			$(hgIGNOREFILES) \
 			$(CLEANFILES) \
 			$(PROGRAMS) $(check_PROGRAMS) $(EXTRA_PROGRAMS) \
