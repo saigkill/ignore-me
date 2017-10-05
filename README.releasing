@@ -12,7 +12,6 @@ Pre-release:
   + src/*.mk
 * Check version in configure.ac (don't forget the display version)
 * Run `make dist`
-* Run `make distcheck`
 * Run `debuild`
 * Run `pbuilder`
 * Run `make clean`
