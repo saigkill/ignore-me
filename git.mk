@@ -3,7 +3,7 @@
 #
 # Copyright 2009, Red Hat, Inc.
 # Copyright 2010,2011,2012,2013 Behdad Esfahbod
-# Copyright 1017 Sascha Manns
+# Copyright 2017 Sascha Manns <Sascha.Manns@mailbox.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # The latest version of this file can be downloaded from:
-GIT_MK_URL ="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/git.mk"
+GIT_MK_URL ="https://git.launchpad.net/ignore-me/plain/src/bzr.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me

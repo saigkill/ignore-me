@@ -1,4 +1,77 @@
 ===============================================================================
+ignore-me 0.1.1 - 2017-11-30
+===============================================================================
+
+    ignore-me 0.1.1 is the culmination of one days' work by 1 developer,
+    1 translator and testers.
+
+    New Features:
+
+      * Nothing yet
+
+    Enhancements:
+
+      * Fixed Bug: Bug LP#1732232: Use new git location for update src files
+        A 'git-mk-update' now downloads from Git the latest git.mk and
+        replaces the current one. That upgrade process also works with the other
+        scripts: bzr-mk-update, svn-mk-update and so on.
+
+
+    Notable Bugs Fixed:
+
+      * Fixed Bug LP#1732229: Fix copyrights
+      * Fixed Bug LP#1732230: Upgrade packaging base
+
+
+===============================================================================
+SOURCES / PACKAGES
+===============================================================================
+
+Sources
+-------
+
+    * ignore-me 0.1.1 Tarballs:
+      https://launchpad.net/ignore-me/0.x/0.1.1/+download/ignore-me-0.1.1.tar.xz
+
+Packages
+--------
+
+    Download and installation information is available here:
+
+    * https://answers.launchpad.net/ignore-me/+faqs
+
+===============================================================================
+REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
+===============================================================================
+
+    If you encounter any bad behavior with this release, please do not
+    hesitate to file bugs!
+
+    * https://bugs.launchpad.net/ignore-me
+
+
+===============================================================================
+VALUED IGNORE-ME CONTRIBUTORS
+===============================================================================
+
+Contributors For This Release
+-----------------------------
+
+    The following people directly contributed to the release of this version
+    of ignore-me. Without their help, there would be no release!
+
+     Behdad Esfahbod
+     Sascha Manns
+
+    The following people contributed updated translations to this release.
+    Without them, our project's reach would be much more limited.
+
+     Sascha Manns
+
+    Join the team on https://launchpad.net/~ignore-me.
+
+
+===============================================================================
 ignore-me 0.1.0 - 2017-10-04
 ===============================================================================
 
