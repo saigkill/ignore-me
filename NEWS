@@ -1,148 +1,98 @@
-===============================================================================
-ignore-me 0.1.1 - 2017-11-30
-===============================================================================
+ignore-me 0.1.1
 
-    ignore-me 0.1.1 is the culmination of one days' work by 1 developer,
-    1 translator and testers.
+Release Notes
 
-    New Features:
+ignore-me is a generator for ignoring files for Autotools based projects and it
+knows how to handle autoconf, automake, libtool, gtk-doc, gnome-doc-utils,
+yelp.m4, mallard, intltool, gsettings, dejagnu, appdata, appstream.
 
-      * Nothing yet
+ignore-me 0.1.1 is the culmination of one days work by 1 developer, 1
+translator and testers.
 
-    Enhancements:
+Publication Date: December 15, 2017 , Version: Version 1.0 - Revision: 0
 
-      * Fixed Bug: Bug LP#1732232: Use new git location for update src files
-        A 'git-mk-update' now downloads from Git the latest git.mk and
-        replaces the current one. That upgrade process also works with the other
-        scripts: bzr-mk-update, svn-mk-update and so on.
+1 Release Notes - 0.1.1
 
+Release Notes - 0.1.1
 
-    Notable Bugs Fixed:
+Version 1.0 - Revision: 0
 
-      * Fixed Bug LP#1732229: Fix copyrights
-      * Fixed Bug LP#1732230: Upgrade packaging base
+New Features
 
+  * New translation: pt_BR
 
-===============================================================================
-SOURCES / PACKAGES
-===============================================================================
+Enhancements
 
-Sources
--------
+  * Fixed Bug LP#1732232: Implemented a updating option for the Makefiles. The
+    following commands now can be used:
 
-    * ignore-me 0.1.1 Tarballs:
-      https://launchpad.net/ignore-me/0.x/0.1.1/+download/ignore-me-0.1.1.tar.xz
+      + make git-mk-update
 
-Packages
---------
+      + make bzr-mk-update
 
-    Download and installation information is available here:
+      + make svn-mk-update
 
-    * https://answers.launchpad.net/ignore-me/+faqs
+      + make cvs-mk-update
 
-===============================================================================
-REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
-===============================================================================
+      + make hg-mk-update
 
-    If you encounter any bad behavior with this release, please do not
-    hesitate to file bugs!
+Notable Bugs fixed:
 
-    * https://bugs.launchpad.net/ignore-me
+  * Bug LP#1732229: Add missing copyright notes to debian/copyright. (Needed
+    for releasing in Debian Distro)
 
+  * Bug LP#1732230: Upgrade packaging base:
 
-===============================================================================
-VALUED IGNORE-ME CONTRIBUTORS
-===============================================================================
+      + debian/control:
 
-Contributors For This Release
------------------------------
+          o Set Standards version to 4.1.1
 
-    The following people directly contributed to the release of this version
-    of ignore-me. Without their help, there would be no release!
+          o Debhelper updated to depend on version 10
 
-     Behdad Esfahbod
-     Sascha Manns
+      + debian/compat
 
-    The following people contributed updated translations to this release.
-    Without them, our project's reach would be much more limited.
+          o Update to level 10
 
-     Sascha Manns
+  * Bug LP#1732232: Use new git location for update src files (See
+    Enhancements).
 
-    Join the team on https://launchpad.net/~ignore-me.
+Sources / Packages
 
+We are providing the sources and packages on that places:
 
-===============================================================================
-ignore-me 0.1.0 - 2017-10-04
-===============================================================================
+  * Sources
 
-    ignore-me 0.1.0 is the culmination of two days' work by 1 developer,
-    1 translator and testers.
+      + ignore-me 0.1.1 Tarballs:
 
-    New Features:
+        https://launchpad.net/ignore-me/0.x/0.1.1/+download/
+        ignore-me-0.1.1.tar.xz (https://launchpad.net/ignore-me/0.x/0.1.1/
+        +download/ignore-me-0.1.1.tar.xz)
 
-      * Base functions
+  * Packages
 
-            This is the first official release which implements:
+      + Download and installation information is available here:
 
-            * Supports BZR (Closes: LP#1721196)
-            * Supports CVS (Closes: LP#1721197)
-            * Supports GIT (Closes: LP#1721195)
-            * Supports HG (Closes: LP#1721232)
-            * Supports SVN (Closes: LP#1721198)
+        https://answers.launchpad.net/ignore-me/+faqs (https://
+        answers.launchpad.net/ignore-me/+faqs)
 
-    Enhancements:
+Documentation
 
-      * Nothing yet
+We are providing a user documentation on: https://saigkill.github.io/ignore-me/
+userdocs/ignore-me/index.html (https://saigkill.github.io/ignore-me/userdocs/
+ignore-me/index.html)
 
+Report Bugs - Help the Project - Grow the Community
 
-    Notable Bugs Fixed:
+If you encounter any bad behavior with this release, please don't hesitate to
+file bugs!
 
-      * Nothing yet
+See https://bugs.launchpad.net/ignore-me (https://bugs.launchpad.net/ignore-me)
 
+Thanks
 
-===============================================================================
-SOURCES / PACKAGES
-===============================================================================
+We are thanking for supporting that app:
 
-Sources
--------
+  * Rodrigo Henrique (pt_BR translation)
 
-    * ignore-me 0.1.0 Tarballs:
-      https://launchpad.net/ignore-me/0.x/0.1.0/+download/ignore-me-0.1.0.tar.xz
+? 2017 Sascha Manns
 
-Packages
---------
-
-    Download and installation information is available here:
-
-    * https://answers.launchpad.net/ignore-me/+faqs
-
-===============================================================================
-REPORT BUGS - HELP THE PROJECT - GROW THE COMMUNITY
-===============================================================================
-
-    If you encounter any bad behavior with this release, please do not
-    hesitate to file bugs!
-
-    * https://bugs.launchpad.net/ignore-me
-
-
-===============================================================================
-VALUED IGNORE-ME CONTRIBUTORS
-===============================================================================
-
-Contributors For This Release
------------------------------
-
-    The following people directly contributed to the release of this version
-    of ignore-me. Without their help, there would be no release!
-
-     Behdad Esfahbod
-     Sascha Manns
-
-    The following people contributed updated translations to this release.
-    Without them, our project's reach would be much more limited.
-
-     Sascha Manns
-
-    Join the team on https://launchpad.net/~ignore-me.

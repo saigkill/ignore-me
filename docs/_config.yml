@@ -16,7 +16,7 @@
 title: ignore-me
 email: Sascha.Manns@mailbox.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Generator for ignore files for autotools based projects
+  Generator for ignoring files for Autotools based projects
 baseurl: "ignore-me" # the subpath of your site, e.g. /blog
 url: "http://saigkill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saigkill

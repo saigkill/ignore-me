@@ -5,13 +5,14 @@ permalink: /about/
 ---
 
 # Introduction
-Generator for ignore files for autotools based projects.
+Generator for ignoring files for Autotools based projects.
 
 <script type='text/javascript' src='https://www.openhub.net/p/ignore-me/widgets/project_factoids_stats?format=js'></script>
 
 ## Documentation
 
 * [User Documentation](https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html)
+* [Release Notes](https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html)
 
 ## Development
 The development happens on [Launchpad](https://launchpad.net/ignore-me).
