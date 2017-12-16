@@ -1,0 +1,85 @@
+# Brazilian Portuguese translation for ignore-me
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the ignore-me package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ignore-me\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/ignore-me\n"
+"POT-Creation-Date: 2017-10-04 16:01+0200\n"
+"PO-Revision-Date: 2017-12-04 14:23+0000\n"
+"Last-Translator: Rodrigo Henrique <Unknown>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-12-15 16:20+0000\n"
+"X-Generator: Launchpad (build 18511)\n"
+
+#: ../bin/copy-bzrmk.in.in:58
+msgid "copy-bzrmk - .bzrignore creating tool - Version: ignore-me "
+msgstr "copy-bzrmk - .bzrignore ferramenta de criação- Versão: ignore-me "
+
+#: ../bin/copy-bzrmk.in.in:73
+msgid "Installed bzr.mk was copied to current directory."
+msgstr "O bzr.mk instalado foi copiado para o diretório atual."
+
+#: ../bin/copy-bzrmk.in.in:75 ../bin/copy-cvsmk.in.in:75
+#: ../bin/copy-gitmk.in.in:75 ../bin/copy-hgmk.in.in:75
+#: ../bin/copy-svnmk.in.in:75
+msgid "Anything goes wrong. Please file a Bugreport."
+msgstr "Qualquer coisa dá errado. Por favor, insira um Bugreport."
+
+#: ../bin/copy-bzrmk.in.in:76
+msgid "More information: man copy-bzrmk."
+msgstr "Mais informações: man copy-bzrmk."
+
+#: ../bin/copy-cvsmk.in.in:58
+msgid "copy-cvsmk - .cvsignore creating tool - Version: ignore-me "
+msgstr "copy-cvsmk - .cvsignore ferramenta de criação - Versão: ignore-me "
+
+#: ../bin/copy-cvsmk.in.in:73
+msgid "Installed cvs.mk was copied to current directory."
+msgstr "Cvs.mk instalado foi copiado para o diretório atual."
+
+#: ../bin/copy-cvsmk.in.in:76
+msgid "More information: man copy-cvsmk."
+msgstr "Mais informações: man copy-cvsmk."
+
+#: ../bin/copy-gitmk.in.in:58
+msgid "copy-gitmk - .gitignore creating tool - Version: ignore-me "
+msgstr "copy-cvsmk - .cvsignore ferramenta de criação - Versão: ignore-me "
+
+#: ../bin/copy-gitmk.in.in:73
+msgid "Installed git.mk was copied to current directory."
+msgstr "O git.mk instalado foi copiado para o diretório atual."
+
+#: ../bin/copy-gitmk.in.in:76
+msgid "More information: man copy-gitmk."
+msgstr "Mais informações: man copy-gitmk."
+
+#: ../bin/copy-hgmk.in.in:58
+msgid "copy-hgmk - .hgignore creating tool - Version: ignore-me "
+msgstr "copy-hgmk - .hgignore ferramenta de criação - Versão: ignore-me "
+
+#: ../bin/copy-hgmk.in.in:73
+msgid "Installed hg.mk to current directory."
+msgstr "Instalou hg.mk para o diretório atual."
+
+#: ../bin/copy-hgmk.in.in:76
+msgid "More information: man copy-hgmk."
+msgstr "Mais informações: man copy-hgmk."
+
+#: ../bin/copy-svnmk.in.in:58
+msgid "copy-svnmk - .svnignore creating tool - Version: ignore-me "
+msgstr "copy-svnmk - .svnignore ferramenta de criação - Version: ignore-me "
+
+#: ../bin/copy-svnmk.in.in:73
+msgid "Installed svn.mk was copied to current directory."
+msgstr "O svn.mk instalado foi copiado para o diretório atual."
+
+#: ../bin/copy-svnmk.in.in:76
+msgid "More information: man copy-svnmk."
+msgstr "Mais informações: man copy-svnmk."

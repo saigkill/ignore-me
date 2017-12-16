@@ -1,4 +1,4 @@
-ignore-me 0.1.1
+ignore-me 0.1.2
 
 Release Notes
 
@@ -6,12 +6,64 @@ ignore-me is a generator for ignoring files for Autotools based projects and it
 knows how to handle autoconf, automake, libtool, gtk-doc, gnome-doc-utils,
 yelp.m4, mallard, intltool, gsettings, dejagnu, appdata, appstream.
 
-ignore-me 0.1.1 is the culmination of one days work by 1 developer, 1
-translator and testers.
+Publication Date: December 16, 2017 , Version: Version 1.0 - Revision: 0
 
-Publication Date: December 15, 2017 , Version: Version 1.0 - Revision: 0
+1 Release Notes - 0.1.2
+2 Release Notes - 0.1.1
 
-1 Release Notes - 0.1.1
+Release Notes - 0.1.2
+
+Version 1.0 - Revision: 0
+
+New Features
+
+  * New translation: pt_BR
+
+Enhancements
+
+No Enhancements
+
+Notable Bugs fixed:
+
+No bugs
+
+Sources / Packages
+
+We are providing the sources and packages on that places:
+
+  * Sources
+
+      + ignore-me 0.1.2 Tarballs:
+
+        https://launchpad.net/ignore-me/0.x/0.1.2/+download/
+        ignore-me-0.1.2.tar.xz (https://launchpad.net/ignore-me/0.x/0.1.2/
+        +download/ignore-me-0.1.2.tar.xz)
+
+  * Packages
+
+      + Download and installation information is available here:
+
+        https://answers.launchpad.net/ignore-me/+faqs (https://
+        answers.launchpad.net/ignore-me/+faqs)
+
+Documentation
+
+We are providing a user documentation on: https://saigkill.github.io/ignore-me/
+userdocs/ignore-me/index.html (https://saigkill.github.io/ignore-me/userdocs/
+ignore-me/index.html)
+
+Report Bugs - Help the Project - Grow the Community
+
+If you encounter any bad behavior with this release, please don't hesitate to
+file bugs!
+
+See https://bugs.launchpad.net/ignore-me (https://bugs.launchpad.net/ignore-me)
+
+Thanks
+
+We are thanking for supporting that app:
+
+  * Rodrigo Henrique (pt_BR translation)
 
 Release Notes - 0.1.1
 
@@ -19,7 +71,7 @@ Version 1.0 - Revision: 0
 
 New Features
 
-  * New translation: pt_BR
+No features
 
 Enhancements
 
@@ -87,12 +139,6 @@ If you encounter any bad behavior with this release, please don't hesitate to
 file bugs!
 
 See https://bugs.launchpad.net/ignore-me (https://bugs.launchpad.net/ignore-me)
-
-Thanks
-
-We are thanking for supporting that app:
-
-  * Rodrigo Henrique (pt_BR translation)
 
 ? 2017 Sascha Manns
 

@@ -5,12 +5,12 @@ dnl Define Versioning Information
 dnl ***********************************************************************
 m4_define([major_version],[0])
 m4_define([minor_version],[1])
-m4_define([micro_version],[1])
+m4_define([micro_version],[2])
 m4_define([package_version],[major_version.minor_version.micro_version])
 m4_define([bug_report_url],[https://bugs.launchpad.net/ignore-me])
 m4_define([package_url],[https://launchpad.net/ignore-me])
 m4_define([maintainers_email],[Sascha.Manns@mailbox.org])
-m4_define([download_page],[https://launchpad.net/ignore-me/0.x/0.1.1/+download/ignore-me_0.1.1.tar.xz])
+m4_define([download_page],[https://launchpad.net/ignore-me/0.x/0.1.2/+download/ignore-me_0.1.2.tar.xz])
 m4_define([answers_page],[https://answers.launchpad.net/ignore-me])
 m4_define([feature_requests],[https://blueprints.launchpad.net/ignore-me])
 m4_define([api_version],[major_version])
@@ -86,7 +86,6 @@ dnl ***********************************************************************
 AC_CONFIG_FILES([
 	Makefile
 	VERSION
-	README.md
 	bin/Makefile
 	bin/copy-bzrmk.in
 	bin/copy-bzrmk

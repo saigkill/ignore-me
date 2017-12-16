@@ -64,7 +64,6 @@ CLEANFILES = \
         configure		\
         Makefile		\
         Makefile.in		\
-        README.md		\
         stamp-h1		\
         VERSION			\
         $(NULL)
