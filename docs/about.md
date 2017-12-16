@@ -13,6 +13,7 @@ Generator for ignoring files for Autotools based projects.
 
 * [User Documentation](https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html)
 * [Release Notes](https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html)
+* [Readme](https://saigkill.github.io/ignore-me/userdocs/readme/ignore-me-readme/index.html)
 
 ## Development
 The development happens on [Launchpad](https://launchpad.net/ignore-me).

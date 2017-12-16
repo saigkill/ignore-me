@@ -4,7 +4,7 @@ Pre-release:
 
 * Update AUTHORS (make AUTHORS)
 * Update CHANGELOG (make CHANGELOG)
-* Update NEWS
+* Check README
 * Update copyright years if needed, in the following paths:
   + bin/copy-*.in.in
   + po/ignore-me.pot
