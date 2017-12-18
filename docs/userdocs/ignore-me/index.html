@@ -28,7 +28,7 @@ hljs.configure({
         <span class="productname ">ignore-me</span> is a generator for ignoring files for autotools based
         projects and it knows how to handle autoconf, automake, libtool, gtk-doc, gnome-doc-utils,
         yelp.m4, mallard, intltool, gsettings, dejagnu, appdata, appstream.</p></div><div class="date"><span class="imprint-label">Publication Date: </span>
-      December 16, 2017
+      December 18, 2017
     , <span class="imprint-label">Version: </span>Version 1.0 - Revision: 0</div></div></div><div class="line"><div class="toc"><dl><dt><span class="sect1"><a href="index.html#idp1"><span class="number">1 </span><span class="name">Documentation Conventions</span></a></span></dt><dt><span class="sect1"><a href="index.html#idp2"><span class="number">2 </span><span class="name">Feedback</span></a></span></dt><dt><span class="sect1"><a href="index.html#idp3"><span class="number">3 </span><span class="name">About the Making of This Documentation</span></a></span></dt><dt><span class="sect1"><a href="index.html#idp4"><span class="number">4 </span><span class="name">Source Code</span></a></span></dt><dt><span class="sect1"><a href="index.html#Prequisites"><span class="number">5 </span><span class="name">Prequisites</span></a></span></dt><dt><span class="sect1"><a href="index.html#sec.installation"><span class="number">6 </span><span class="name">Installation</span></a></span></dt><dt><span class="sect1"><a href="index.html#sec.usage"><span class="number">7 </span><span class="name">Usage</span></a></span></dt><dt><span class="sect1"><a href="index.html#idp5"><span class="number">8 </span><span class="name">Common Information</span></a></span></dt><dt><span class="appendix"><a href="appe-Documentation-hoe-packaging-Revision_History.html"><span class="number">A </span><span class="name">Revision History</span></a></span></dt><dt><span class="appendix"><a href="apb.html"><span class="number">B </span><span class="name">GNU Licenses</span></a></span></dt><dd><dl><dt><span class="sect1"><a href="apb.html#idp6"><span class="number">B.1 </span><span class="name">GNU Free Documentation License</span></a></span></dt></dl></dd><dt><span class="index"><a href="ix01.html"><span class="number"> </span><span class="name">Index</span></a></span></dt></dl></div></div><div><div class="legalnotice" id="idp7">
     <p>
         Copyright © 2006–
@@ -209,20 +209,18 @@ hljs.configure({
 </div>
   <div xml:lang="en" class="sect1 " id="idp4" lang="en"><div class="titlepage"><div><div><h2 class="title" id="idp4"><span class="number">4 </span><span class="name">Source Code</span> <a title="Permalink" class="permalink" href="index.html#idp4">#</a></h2></div></div></div>
     
-    <p>
-        The source code of ignore-me is publicly available on <a class="ulink" href="https://git.launchpad.net/ignore-me" target="_blank">https://git.launchpad.net/ignore-me</a> for download links and more
-        information.
-    </p>
+    <p> The source code of <span class="productname ">ignore-me</span> is publicly available on <a class="ulink" href="https://git.launchpad.net/ignore-me" target="_blank">https://git.launchpad.net/ignore-me</a> for download links and more
+        information. </p>
 </div>
   <div class="sect1 " id="Prequisites"><div class="titlepage"><div><div><h2 class="title" id="Prequisites"><span class="number">5 </span><span class="name">Prequisites</span> <a title="Permalink" class="permalink" href="index.html#Prequisites">#</a></h2></div></div></div>
     
     <p>For building and running <span class="productname ">ignore-me</span> you need:
       </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
-          <p>xsltproc (for the manpage)</p>
+          <p><span class="package ">xsltproc</span> (for the manpage)</p>
         </li><li class="listitem ">
-          <p>python3</p>
+          <p><span class="package ">python3</span></p>
         </li><li class="listitem ">
-          <p>itstool</p>
+          <p><span class="package ">itstool</span></p>
         </li></ul></div><p>
     </p>
   </div>
@@ -234,17 +232,17 @@ hljs.configure({
     <div class="sect2 " id="sec.installation.debian"><div class="titlepage"><div><div><h3 class="title" id="sec.installation.debian"><span class="number"> </span><span class="name">Installation on Debian</span> <a title="Permalink" class="permalink" href="index.html#sec.installation.debian">#</a></h3></div></div></div>
       
       <a id="idp24" class="indexterm"></a>
-      <p>The installation works in the console/terminal via: <code class="command">sudo apt install
-          ignore-me</code> (in unstable).</p>
+      <p>The installation works in the console/terminal via (with <code class="systemitem">root</code>): <code class="prompt root">root # </code><code class="command">sudo apt install
+          ignore-me</code> and press <span class="keycap">Enter</span> (in unstable).</p>
     </div>
     <div class="sect2 " id="sec.installation.ubuntu"><div class="titlepage"><div><div><h3 class="title" id="sec.installation.ubuntu"><span class="number"> </span><span class="name">Installation on Ubuntu</span> <a title="Permalink" class="permalink" href="index.html#sec.installation.ubuntu">#</a></h3></div></div></div>
       
       <a id="idp26" class="indexterm"></a>
       <p> Do the following to get ignore-me get work: </p><div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
-            <p>Type in the console: <code class="command">sudo add-apt-repository ppa:ignore-me/ppa</code>
+            <p>Type in the console (as <code class="systemitem">root</code>): <code class="prompt root">root # </code><code class="command">sudo add-apt-repository ppa:ignore-me/ppa</code>
               and press <span class="keycap">Enter</span>.</p>
           </li><li class="step ">
-            <p>Now type: <code class="command">sudo apt update &amp;&amp; sudo apt install ignore-me</code>
+            <p>Now type: <code class="prompt root">root # </code><code class="command">sudo apt update &amp;&amp; sudo apt install ignore-me</code>
               and press <span class="keycap">Enter</span>.</p>
           </li></ol></div></div><p>
       </p>
@@ -253,19 +251,19 @@ hljs.configure({
       
       <a id="idp28" class="indexterm"></a>
       <p>To install <span class="productname ">ignore-me</span> on openSUSE, follow the next
-        steps:</p>
+        steps (as <code class="systemitem">root</code>):</p>
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
-          <p>Type <code class="command">sudo zypper ar
+          <p>Type <code class="prompt root">root # </code><code class="command">sudo zypper ar
               https://download.opensuse.org/repositories/home:/saigkill:/ignore-me/openSUSE_Leap_42.2</code>
             for Leap 42.2 and press <span class="keycap">Enter</span>.</p>
-          <p>Type <code class="command">sudo zypper ar
+          <p>Type <code class="prompt root">root # </code><code class="command">sudo zypper ar
               https://download.opensuse.org/repositories/home:/saigkill:/ignore-me/openSUSE_Leap_42.3</code>
             for Leap 42.3 and press <span class="keycap">Enter</span>.</p>
-          <p>Type <code class="command">sudo zypper ar
+          <p>Type <code class="prompt root">root # </code><code class="command">sudo zypper ar
               https://download.opensuse.org/repositories/home:/saigkill:/ignore-me/openSUSE_Tumbleweed</code>
             for Tumbleweed and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Then type <code class="command">sudo zypper ref &amp;&amp; sudo zypper in ignore-me</code> and
+          <p>Then type <code class="prompt root">root # </code><code class="command">sudo zypper ref &amp;&amp; sudo zypper in ignore-me</code> and
             press <span class="keycap">Enter</span>.</p>
         </li></ol></div></div>
     </div>
@@ -274,21 +272,21 @@ hljs.configure({
       
       <p>For all other distros are the following steps proposed:</p>
       <div class="procedure " id="proc.generic"><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
-          <p><code class="command">tar -xf ignore-me-0.1.2.tar.xz</code></p>
+          <p><code class="prompt user">tux &gt; </code><code class="command">tar -xf ignore-me-0.1.2.tar.xz</code></p>
         </li><li class="step ">
           <p>
-            <code class="command">cd ignore-me-0.1.2</code>
+            <code class="prompt user">tux &gt; </code><code class="command">cd ignore-me-0.1.2</code>
           </p>
         </li><li class="step ">
-          <p><code class="command">./configure</code></p>
+          <p><code class="prompt user">tux &gt; </code><code class="command">./configure</code></p>
         </li><li class="step ">
           <p>
-            <code class="command">make</code>
+            <code class="prompt user">tux &gt; </code><code class="command">make</code>
           </p>
         </li><li class="step ">
           <p>[ Become root if necessary ]</p>
         </li><li class="step ">
-          <p><code class="command">make install</code></p>
+          <p><code class="prompt root">root # </code><code class="command">make install</code></p>
         </li></ol></div></div>
     </div>
   </div>
@@ -297,25 +295,25 @@ hljs.configure({
     
     <a id="idp31" class="indexterm"></a>
     <p>
-      <span class="productname ">ignore-me</span> defines some common tasks in your Makefile. Now following
+      <span class="productname ">ignore-me</span> defines some common tasks for your <code class="filename">Makefile.am</code>. Now following
       the VCS specific steps to use <span class="productname ">ignore-me</span>. </p>
     <div class="sect2 " id="sec.usage.bzr"><div class="titlepage"><div><div><h3 class="title" id="sec.usage.bzr"><span class="number"> </span><span class="name">With BZR</span> <a title="Permalink" class="permalink" href="index.html#sec.usage.bzr">#</a></h3></div></div></div>
       
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
           <p>Change inside the shell to your project's root directory.</p>
         </li><li class="step ">
-          <p>Type <code class="command">copy-bzrmk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">copy-bzrmk</code> and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Type <code class="command">make -f bzr.mk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">make -f bzr.mk</code> and press <span class="keycap">Enter</span>.</p>
           <div id="idp33" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
             <p>The copy command modifies all Makefile.am files and includes itself there. This
               enables automatic .bzrignore generation.</p>
           </div>
         </li><li class="step ">
-          <p>Define a <code class="varname">BZRIGNOREFILES</code> variable into your Makefile.am, and add
+          <p>Define a <code class="varname">BZRIGNOREFILES</code> variable into your <code class="filename">Makefile.am</code> and add
             the files who should be ignored.</p>
         </li><li class="step ">
-          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your Makefile.am: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
+          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your <code class="filename">Makefile.am</code>: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
                 <p>$(BZRIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</p>
               </li><li class="listitem ">
                 <p>$(BZRIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</p>
@@ -330,18 +328,18 @@ hljs.configure({
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
           <p>Change inside the shell to your project's root directory.</p>
         </li><li class="step ">
-          <p>Type <code class="command">copy-gitmk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">copy-gitmk</code> and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Type <code class="command">make -f git.mk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">make -f git.mk</code> and press <span class="keycap">Enter</span>.</p>
           <div id="idp35" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
-            <p>The copy command modifies all Makefile.am files and includes itself there. This
+            <p>The copy command modifies all <code class="filename">Makefile.am</code> files and includes itself there. This
               enables automatic .gitignore generation.</p>
           </div>
         </li><li class="step ">
-          <p>Define a <code class="varname">GITIGNOREFILES</code> variable into your Makefile.am, and add
+          <p>Define a <code class="varname">GITIGNOREFILES</code> variable into your Makefile.am and add
             the files who should be ignored.</p>
         </li><li class="step ">
-          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your Makefile.am: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
+          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your <code class="filename">Makefile.am</code>: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
                 <p>$(GITIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</p>
               </li><li class="listitem ">
                 <p>$(GITIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</p>
@@ -356,18 +354,18 @@ hljs.configure({
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
           <p>Change inside the shell to your project's root directory.</p>
         </li><li class="step ">
-          <p>Type <code class="command">copy-hgmk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">copy-hgmk</code> and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Type <code class="command">make -f hg.mk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">make -f hg.mk</code> and press <span class="keycap">Enter</span>.</p>
           <div id="idp37" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
-            <p>The copy command modifies all Makefile.am files and includes itself there. This
+            <p>The copy command modifies all <code class="filename">Makefile.am</code> files and includes itself there. This
               enables automatic .hgignore generation.</p>
           </div>
         </li><li class="step ">
-          <p>Define a <code class="varname">HGIGNOREFILES</code> variable into your Makefile.am, and add
+          <p>Define a <code class="varname">HGIGNOREFILES</code> variable into your <code class="filename">Makefile.am</code> and add
             the files who should be ignored.</p>
         </li><li class="step ">
-          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your Makefile.am: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
+          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your <code class="filename">Makefile.am</code>: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
                 <p>$(HGIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</p>
               </li><li class="listitem ">
                 <p>$(HGIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</p>
@@ -382,18 +380,18 @@ hljs.configure({
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
           <p>Change inside the shell to your project's root directory.</p>
         </li><li class="step ">
-          <p>Type <code class="command">copy-svnmk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">copy-svnmk</code> and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Type <code class="command">make -f svn.mk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">make -f svn.mk</code> and press <span class="keycap">Enter</span>.</p>
           <div id="idp39" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
-            <p>The copy command modifies all Makefile.am files and includes itself there. This
+            <p>The copy command modifies all <code class="filename">Makefile.am</code> files and includes itself there. This
               enables automatic .svnignore generation.</p>
           </div>
         </li><li class="step ">
-          <p>Define a <code class="varname">SVNIGNOREFILES</code> variable into your Makefile.am, and add
+          <p>Define a <code class="varname">SVNIGNOREFILES</code> variable into your <code class="filename">Makefile.am</code> and add
             the files who should be ignored.</p>
         </li><li class="step ">
-          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your Makefile.am: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
+          <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your <code class="filename">Makefile.am</code>: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
                 <p>$(SVNIGNORE_MAINTAINERCLEANFILES_TOPLEVEL)</p>
               </li><li class="listitem ">
                 <p>$(SVNIGNORE_MAINTAINERCLEANFILES_MAKEFILE_IN)</p>
@@ -408,15 +406,15 @@ hljs.configure({
       <div class="procedure "><div class="procedure-contents"><ol class="procedure" type="1"><li class="step ">
           <p>Change inside the shell to your project's root directory.</p>
         </li><li class="step ">
-          <p>Type <code class="command">copy-cvsmk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">copy-cvsmk</code> and press <span class="keycap">Enter</span>.</p>
         </li><li class="step ">
-          <p>Type <code class="command">make -f cvs.mk</code> and press <span class="keycap">Enter</span>.</p>
+          <p>Type <code class="prompt user">tux &gt; </code><code class="command">make -f cvs.mk</code> and press <span class="keycap">Enter</span>.</p>
           <div id="idp41" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
-            <p>The copy command modifies all Makefile.am files and includes itself there. This
+            <p>The copy command modifies all <code class="filename">Makefile.am</code> files and includes itself there. This
               enables automatic .cvsignore generation.</p>
           </div>
         </li><li class="step ">
-          <p>Define a <code class="varname">CVSIGNOREFILES</code> variable into your Makefile.am, and add
+          <p>Define a <code class="varname">CVSIGNOREFILES</code> variable into your <code class="filename">Makefile.am</code> and add
             the files who should be ignored.</p>
         </li><li class="step ">
           <p>Add to <code class="varname">MAINTAINERCLEANFILES</code> in your Makefile.am: </p><div class="itemizedlist "><ul class="itemizedlist"><li class="listitem ">
@@ -435,13 +433,13 @@ hljs.configure({
     <p>If you need to ignore more files, add them to the <code class="varname">BZRIGNOREFILES</code>,
         <code class="varname">GITIGNOREFILES</code>, <code class="varname">HGIGNOREFILES</code>,
         <code class="varname">SVNFILES</code> or <code class="varname">CVSFILES</code>variable in your
-      Makefile.am.</p>
+      <code class="filename">Makefile.am</code>.</p>
     <p>But think twice before doing that. If a file has to be in a .xxxignore, chances are very
       high that it's a generated file and should be in one of <code class="varname">MOSTLYCLEANFILES</code>,
         <code class="varname">CLEANFILES</code>, <code class="varname">DISTCLEANFILES</code>, or
         <code class="varname">MAINTAINERCLEANFILES</code>.</p>
     <p>The only case that you need to manually add a file to XXXIGNOREFILES is when remove files
-      in one of mostlyclean-local, clean-local, distclean-local, or maintainer-clean-local make
+      in one of <code class="varname">mostlyclean-local</code>, <code class="varname">clean-local</code>, <code class="varname">distclean-local</code>, or <code class="varname">maintainer-clean-local</code> make
       targets.</p>
   </div>
   

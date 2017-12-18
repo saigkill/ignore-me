@@ -12,8 +12,10 @@ Currently it supports BZR, CVS, GIT, HG and SVN.
 ignore-me is released under the GNU General Public License (GPL) version
 3+, see the file 'COPYING' for more information.
 
-The official web site is: <https://launchpad.net/ignore-me>. Github is
-used just as a mirror.
+> **Note**
+>
+> The official web site is: <https://launchpad.net/ignore-me>. Github is
+> used just as a mirror.
 
 Contributing {#sec.contributing}
 ============
@@ -29,7 +31,7 @@ Cool Hacks {#sec.cool_hacks}
 
 If you want to provide a cool hack, so please follow that proposals:
 
--   Open a bugreport on <https://bugs.launchpad.net/ignore-me>.
+-   Open a bug report on <https://bugs.launchpad.net/ignore-me>.
 
 -   Please use the -u flag when generating the patch as it makes the
     patch more readable.

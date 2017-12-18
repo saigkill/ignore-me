@@ -3,7 +3,9 @@ SUBDIRS = bin man po src
 EXTRA_DIST = \
 			ABOUT-NLS 	\
 			AUTHORS 	\
-			changelog 	\
+			changelog	ls
+
+			\
 			COPYING 	\
 			NEWS 		\
 			README.md 	\
