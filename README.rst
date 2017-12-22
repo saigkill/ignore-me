@@ -1,3 +1,7 @@
+================
+ignore-me README
+================
+
 Introduction
 ============
 
@@ -145,3 +149,15 @@ Ressources
 
 -  `*Release
    Notes* <https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html>`__
+
+Donations
+---------
+
+If you like that stuff, so please leave a small donation.
+
++--------------------------------------+--------------------------------------+
+| Pledgie                              | https://pledgie.com/campaigns/35369  |
++--------------------------------------+--------------------------------------+
+| Amazon Wishlist                      | https://www.amazon.de/hz/wishlist/ls |
+|                                      | /D75HOEQ00BDD                        |
++--------------------------------------+--------------------------------------+
