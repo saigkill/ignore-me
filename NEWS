@@ -6,7 +6,7 @@ ignore-me is a generator for ignoring files for Autotools based projects and it
 knows how to handle autoconf, automake, libtool, gtk-doc, gnome-doc-utils,
 yelp.m4, mallard, intltool, gsettings, dejagnu, appdata, appstream.
 
-Publication Date: December 22, 2017 , Version: Version 1.0 - Revision: 0
+Publication Date: December 27, 2017 , Version: Version 1.0 - Revision: 0
 
 1 Release Notes - 0.1.2
 2 Release Notes - 0.1.1
@@ -48,9 +48,9 @@ We are providing the sources and packages on that places:
 
 Documentation
 
-We are providing a user documentation on: https://saigkill.github.io/ignore-me/
-userdocs/ignore-me/index.html (https://saigkill.github.io/ignore-me/userdocs/
-ignore-me/index.html)
+We are providing a user documentation: html (https://saigkill.github.io/
+ignore-me/userdocs/ignore-me/index.html) and pdf (https://saigkill.github.io/
+ignore-me/userdocs/ignore-me_color_en.pdf).
 
 Report Bugs - Help the Project - Grow the Community
 

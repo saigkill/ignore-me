@@ -144,11 +144,12 @@ Thanks Behdad Esfahbod for his initial development of git.mk.
 Ressources
 ----------
 
--  `*User
-   Documentation* <https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html>`__
+-  *User Documentation*:
+   `html <https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html>`__,
+   `pdf <https://saigkill.github.io/ignore-me/userdocs/ignore-me_color_en.pdf>`__
 
--  `*Release
-   Notes* <https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html>`__
+-  *Release Notes*:
+   `html <https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html>`__
 
 Donations
 ---------
@@ -158,6 +159,5 @@ If you like that stuff, so please leave a small donation.
 +--------------------------------------+--------------------------------------+
 | Pledgie                              | https://pledgie.com/campaigns/35369  |
 +--------------------------------------+--------------------------------------+
-| Amazon Wishlist                      | https://www.amazon.de/hz/wishlist/ls |
-|                                      | /D75HOEQ00BDD                        |
+| Amazon Wishlist                      | `goo.gl/aLZAfS <goo.gl/aLZAfS>`__    |
 +--------------------------------------+--------------------------------------+
