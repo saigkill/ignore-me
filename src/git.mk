@@ -19,7 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # The latest version of this file can be downloaded from:
-GIT_MK_URL ="https://git.launchpad.net/ignore-me/plain/src/git.mk"
+GIT_MK_URL ="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/git.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me

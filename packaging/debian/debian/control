@@ -1,0 +1,23 @@
+Source: ignore-me
+Section: utils
+Priority: optional
+Maintainer: Sascha Manns <Sascha.Manns@mailbox.org>
+Build-Depends: debhelper (>= 10), python3-all, xsltproc, itstool, docbook-xsl, docbook-xml
+Standards-Version: 4.1.1
+Homepage: https://launchpad.net/ignore-me
+Vcs-Git: https://git.launchpad.net/ignore-me
+Vcs-Browser: https://git.launchpad.net/ignore-me
+
+Package: ignore-me
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Conflicts: bzrmk
+Replaces: bzrmk
+Description: Generator for ignore files for autotools based projects
+ This program helps by creating a ignore file for your autotools
+ basedproject. After installing it provides some binaries, which can copy
+ the shipped Makefile into your current project directory.
+ Currently it supports BZR, CVS, GIT, HG and SVN.
+ The Makefiles itself providing some useful rules for
+ blacklisting some of your files to put them into the ignore file.
+ See it man pages for further information.

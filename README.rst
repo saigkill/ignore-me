@@ -13,7 +13,7 @@ ignore-me is released under the GNU General Public License (GPL) version
 
     **Note**
 
-    The official web site is: https://launchpad.net/ignore-me. Github is
+    The official web site is: https://github.com/saigkill/ignore-me. Github is
     used just as a mirror.
 
 Contributing
@@ -30,7 +30,7 @@ Cool Hacks
 
 If you want to provide a cool hack, so please follow that proposals:
 
--  Open a bug report on https://bugs.launchpad.net/ignore-me.
+-  Open a bug report on https://github.com/saigkill/ignore-me.
 
 -  Please use the -u flag when generating the patch as it makes the
    patch more readable.
@@ -41,10 +41,7 @@ If you want to provide a cool hack, so please follow that proposals:
 
 Merging
 -------
-
-If you want to merge your branch with the trunk, click on "Propose for
-merging" on Launchpad. Please base all Merge requests off the trunk
-branch. Merges to X.X only occur through the trunk branch.
+Please base all Pull-Requests on the develop branch.
 
 Code of Conduct
 ---------------
@@ -121,12 +118,12 @@ Installation
 ------------
 
 The Installation process is described on:
-https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html#sec.installation.
+http://saigkill.tuxfamily.org/documentation/ignore-me/sec.installation.html.
 
 Bug Reporting
 -------------
 
-Bugs should be reported to https://bugs.launchpad.net/ignore-me. You
+Bugs should be reported to https://github.com/saigkill/ignore-me/issues. You
 will need to create an account for yourself. See if is your problem is
 already reported.
 
@@ -134,7 +131,7 @@ Feature Requests
 ----------------
 
 Feature Requests are welcome on:
-https://blueprints.launchpad.net/ignore-me.
+https://github.com/saigkill/ignore-me/issues
 
 Thanks
 ------
@@ -145,19 +142,4 @@ Ressources
 ----------
 
 -  *User Documentation*:
-   `html <https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html>`__,
-   `pdf <https://saigkill.github.io/ignore-me/userdocs/ignore-me_color_en.pdf>`__
-
--  *Release Notes*:
-   `html <https://saigkill.github.io/ignore-me/relnotes/ignore-me-release-notes/index.html>`__
-
-Donations
----------
-
-If you like that stuff, so please leave a small donation.
-
-+--------------------------------------+--------------------------------------+
-| Pledgie                              | https://pledgie.com/campaigns/35369  |
-+--------------------------------------+--------------------------------------+
-| Amazon Wishlist                      | `goo.gl/aLZAfS <goo.gl/aLZAfS>`__    |
-+--------------------------------------+--------------------------------------+
+   `html <http://saigkill.tuxfamily.org/documentation/ignore-me>`__,

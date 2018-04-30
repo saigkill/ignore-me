@@ -18,7 +18,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # The latest version of this file can be downloaded from:
-BZR_MK_URL="https://git.launchpad.net/ignore-me/plain/src/bzr.mk"
+BZR_MK_URL="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/bzr.mk"
 #
 # Bugs should be reported upstream at:
 #   https://bugs.launchpad.net/ignore-me

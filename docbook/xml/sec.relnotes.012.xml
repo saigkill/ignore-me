@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbookxi.rng"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+<?xml-model href="http://docbook.org/xml/5.1CR3/rng/docbook.rng"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+<sect1 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook" xml:lang="en" xml:id="sec.ignore-me-relnotes012"
+    version="5.0">
+    <info>
+        <title>Release Notes - 0.1.2</title>
+        <productnumber>0.1.2</productnumber>
+        <productname>ignore-me</productname>
+        <releaseinfo>Version 1.0 - Revision: 0</releaseinfo>
+        <date>
+            2017-12-16
+        </date>
+    </info>
+    <sect2>
+        <info>
+            <title>New Features</title>
+        </info>
+        <itemizedlist>
+            <listitem>
+                <para>New translation: pt_BR</para>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+    <sect2>
+        <info>
+            <title>Enhancements</title>
+        </info>
+        <para>No Enhancements</para>
+    </sect2>
+    <sect2>
+        <info>
+            <title>Notable Bugs fixed:</title>
+        </info>
+        <para>No bugs</para>
+    </sect2>
+
+
+    <sect2>
+        <info>
+            <title>Sources / Packages</title>
+        </info>
+        <para>We are providing the sources and packages on that places:</para>
+        <itemizedlist>
+            <listitem>
+                <para>Sources</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ignore-me 0.1.2 Tarballs:</para>
+                        <para><link
+                            xlink:href="https://launchpad.net/ignore-me/0.x/0.1.2/+download/ignore-me-0.1.2.tar.xz">https://launchpad.net/ignore-me/0.x/0.1.2/+download/ignore-me-0.1.2.tar.xz</link></para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>Packages</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Download and installation information is available here:</para>
+                        <para><link xlink:href="https://answers.launchpad.net/ignore-me/+faqs">https://answers.launchpad.net/ignore-me/+faqs</link></para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+
+    <sect2>
+        <info>
+            <title>Documentation</title>
+        </info>
+        <para> We are providing a user documentation: <link
+                xlink:href="https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html"
+            >html</link> and <link xlink:href="https://saigkill.github.io/ignore-me/userdocs/ignore-me_color_en.pdf">pdf</link>.</para>
+    </sect2>
+
+    <sect2>
+        <info>
+            <title>Report Bugs - Help the Project - Grow the Community</title>
+        </info>
+        <para>If you encounter any bad behavior with this release, please don't hesitate to file
+            bugs!</para>
+        <para><link xlink:href="https://bugs.launchpad.net/ignore-me">See https://bugs.launchpad.net/ignore-me</link></para>
+    </sect2>
+
+    <sect2>
+        <info>
+            <title>Thanks</title>
+        </info>
+        <para>We are thanking for supporting that app:
+            <itemizedlist>
+                <listitem>
+                    <para>Rodrigo Henrique (pt_BR translation)</para>
+                </listitem>
+            </itemizedlist>
+        </para>
+    </sect2>
+
+</sect1>

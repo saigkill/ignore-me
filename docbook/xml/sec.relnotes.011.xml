@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbookxi.rng"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+<?xml-model href="http://docbook.org/xml/5.1CR3/rng/docbook.rng"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+<!DOCTYPE sect1
+[
+  <!ENTITY % entities SYSTEM "entity-decl.ent">
+  <!ENTITY % own_ent SYSTEM "ignore-me.ent">
+    %entities;
+    %own_ent;
+]>
+<sect1 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook" xml:lang="en" xml:id="sec.ignore-me-relnotes011"
+    version="5.0">
+    <info>
+        <title>Release Notes - 0.1.1</title>
+        <productnumber>0.1.1</productnumber>
+        <productname>ignore-me</productname>
+        <releaseinfo>Version 1.0 - Revision: 0</releaseinfo>
+        <date>
+            2017-12-15
+        </date>
+    </info>
+    <sect2>
+        <info>
+            <title>New Features</title>
+        </info>
+        <para>No features</para>
+    </sect2>
+    <sect2>
+        <info>
+            <title>Enhancements</title>
+        </info>
+        <itemizedlist>
+            <listitem>
+                <para>LP#1732232: Implemented a updating option for the Makefiles. The following
+                    commands now can be used:</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>&prompt.user;<command>make git-mk-update</command></para>
+                    </listitem>
+                    <listitem>
+                        <para>&prompt.user;<command>make bzr-mk-update</command></para>
+                    </listitem>
+                    <listitem>
+                        <para>&prompt.user;<command>make svn-mk-update</command></para>
+                    </listitem>
+                    <listitem>
+                        <para>&prompt.user;<command>make cvs-mk-update</command></para>
+                    </listitem>
+                    <listitem>
+                        <para>&prompt.user;<command>make hg-mk-update</command></para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+    <sect2>
+        <info>
+            <title>Notable Bugs fixed:</title>
+        </info>
+        <itemizedlist>
+            <listitem>
+                <para>Bug LP#1732229: Add missing copyright notes to debian/copyright. (Needed
+                    for releasing in Debian Distro)</para>
+            </listitem>
+            <listitem>
+                <para>Bug LP#1732230: Upgrade packaging base:</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>debian/control:</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>Set Standards version to 4.1.1</para>
+                            </listitem>
+                            <listitem>
+                                <para>Debhelper updated to depend on version 10</para>
+                            </listitem>
+                        </itemizedlist>
+                    </listitem>
+                    <listitem>
+                        <para>debian/compat</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>Update to level 10</para>
+                            </listitem>
+                        </itemizedlist>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>Bug LP#1732232: Use new git location for update src files (See
+                    Enhancements).</para>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+
+
+    <sect2>
+        <info>
+            <title>Sources / Packages</title>
+        </info>
+        <para>We are providing the sources and packages on that places:</para>
+        <itemizedlist>
+            <listitem>
+                <para>Sources</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ignore-me 0.1.1 Tarballs:</para>
+                        <para><link
+                            xlink:href="https://launchpad.net/ignore-me/0.x/0.1.1/+download/ignore-me-0.1.1.tar.xz">https://launchpad.net/ignore-me/0.x/0.1.1/+download/ignore-me-0.1.1.tar.xz</link></para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>Packages</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Download and installation information is available here:</para>
+                        <para><link xlink:href="https://answers.launchpad.net/ignore-me/+faqs">https://answers.launchpad.net/ignore-me/+faqs</link></para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+    </sect2>
+    
+    <sect2>
+        <info>
+            <title>Documentation</title>
+        </info>
+        <para>
+            We are providing a user documentation on: <link xlink:href="https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html">https://saigkill.github.io/ignore-me/userdocs/ignore-me/index.html</link>
+        </para>
+    </sect2>
+
+    <sect2>
+        <info>
+            <title>Report Bugs - Help the Project - Grow the Community</title>
+        </info>
+        <para>If you encounter any bad behavior with this release, please don't hesitate to file
+            bugs!</para>
+        <para><link xlink:href="https://bugs.launchpad.net/ignore-me">See https://bugs.launchpad.net/ignore-me</link></para>
+    </sect2>
+
+</sect1>

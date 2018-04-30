@@ -1,0 +1,19 @@
+ignore-me (0.1.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #877782)
+  * debian/copyright: Added missing copyrights
+  * debian/control:
+    - Standards version updated to 4.1.1
+    - Debhelper updated to depend on version 10
+  * debian/compat: updated to level 10
+  * Added translation pt_BR
+
+ -- Sascha Manns <Sascha.Manns@mailbox.org>  Sat, 16 Dec 2017 10:00:06 +0200
+
+ignore-me (0.1.1-1) unstable; urgency=low
+
+  * Fixed LP#1732229: Fix copyright
+  * Fixed LP#1732230: Upgrade packaging base
+  * Fixed LP#1732232: Use new git location for update src files
+
+ -- Sascha Manns <Sascha.Manns@mailbox.org>  Thu, 30 Nov 2017 12:34:06 +0200

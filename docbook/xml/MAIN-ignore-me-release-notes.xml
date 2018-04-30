@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbookxi.rng"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+<?xml-model href="http://docbook.org/xml/5.1CR3/rng/docbook.rng"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+<!DOCTYPE article
+[
+  <!ENTITY % entities SYSTEM "ignore-me.ent">
+    %entities;
+]>
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://docbook.org/ns/docbook" xml:lang="en" xml:id="art.relnotes" version="5.0">
+    <info>
+        <title>Release Notes</title>
+        <productnumber>&VERSION;</productnumber>
+        <productname>ignore-me</productname>
+        <subtitle></subtitle>
+        <releaseinfo>Version 1.0 - Revision: 0</releaseinfo>
+        <date>
+            <?dbtimestamp format="B d, Y"?>
+        </date>        
+        <abstract>
+            <para>                
+                <productname>ignore-me</productname> is a generator for ignoring files for Autotools based
+                projects and it knows how to handle autoconf, automake, libtool, gtk-doc, gnome-doc-utils,
+                yelp.m4, mallard, intltool, gsettings, dejagnu, appdata, appstream.</para>
+        </abstract>
+    </info>
+    <xi:include href="sec.relnotes.012.xml" />
+    <xi:include href="sec.relnotes.011.xml" />
+</article>
