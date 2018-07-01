@@ -11,7 +11,7 @@ m4_define([bug_report_url],[https://github.com/saigkill/ignore-me/issues])
 m4_define([package_url],[https://github.com/saigkill/ignore-me])
 m4_define([maintainers_email],[Sascha.Manns@outlook.de])
 m4_define([download_page],[https://launchpad.net/ignore-me/0.x/0.1.3/+download/ignore-me_0.1.3.tar.xz])
-m4_define([answers_page],[https://groups.google.com/forum/#!forum/ignore-me])
+m4_define([answers_page],[https://github.com/saigkill/ignore-me/issues])
 m4_define([feature_requests],[https://github.com/saigkill/ignore-me/issues])
 m4_define([api_version],[major_version])
 
