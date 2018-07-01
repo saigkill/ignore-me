@@ -23,11 +23,6 @@ Pre-release:
 * Push all
 * Check Launchpad recipe
 
-Release:
-
-* Create Release in Launchpad
-* Add Tarball
-
 Post-release:
 
 * Bump version in configure.ac (don't forget the display version) and commit.

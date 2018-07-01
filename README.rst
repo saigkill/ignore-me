@@ -13,8 +13,7 @@ ignore-me is released under the GNU General Public License (GPL) version
 
     **Note**
 
-    The official web site is: https://github.com/saigkill/ignore-me. Github is
-    used just as a mirror.
+    The official web site is: https://github.com/saigkill/ignore-me.
 
 Contributing
 ============
@@ -30,7 +29,7 @@ Cool Hacks
 
 If you want to provide a cool hack, so please follow that proposals:
 
--  Open a bug report on https://github.com/saigkill/ignore-me.
+-  Open a bug report on https://github.com/saigkill/ignore-me/issues
 
 -  Please use the -u flag when generating the patch as it makes the
    patch more readable.
@@ -118,7 +117,7 @@ Installation
 ------------
 
 The Installation process is described on:
-http://saigkill.tuxfamily.org/documentation/ignore-me/sec.installation.html.
+https://github.com/saigkill/ignore-me/wiki
 
 Bug Reporting
 -------------
@@ -141,5 +140,4 @@ Thanks Behdad Esfahbod for his initial development of git.mk.
 Ressources
 ----------
 
--  *User Documentation*:
-   `html <http://saigkill.tuxfamily.org/documentation/ignore-me>`__,
+-  *User Documentation*: <https://github.com/saigkill/ignore-me/wiki>
