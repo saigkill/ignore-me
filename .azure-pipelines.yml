@@ -10,7 +10,7 @@ jobs:
 
   steps:  
   - script: |
-      sudo apt-get install autotools-dev autoconf make m4 autopoint
+      sudo apt-get install autotools-dev autoconf make m4 autopoint debhelper python3-all xsltproc itstool docbook-xsl docbook-xml
     displayName: 'Install Developer Base'
 
   - script: |
