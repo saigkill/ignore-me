@@ -1,0 +1,8 @@
+# Compulsory line, this is a version 4 file
+version=4
+
+# PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig
+opts="pgpsigurlmangle=s%$%.asc%"
+
+# Launchpad
+https://launchpad.net/ignore-me/0.x/(.*)/+download/ignore-me-(.*)\.tar\.xz debian uupdate
