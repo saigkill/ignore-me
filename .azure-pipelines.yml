@@ -17,7 +17,7 @@ jobs:
       ./autogen.sh
       ./configure
       make
-      make install
+      sudo make install
     displayName: 'Create package'  
 
   - task: gitmirror@0
