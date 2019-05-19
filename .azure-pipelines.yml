@@ -11,7 +11,7 @@ jobs:
   steps:  
   - script: |
       sudo apt-get update
-      sudo apt-get install autotools-dev autoconf make m4 autopoint debhelper python3-all xsltproc itstool docbook-xsl docbook-xml dh-make docbook docbook-dsssl docbook-defguide dbtoepub docbook-xsl-doc-text docbook-xsl-saxon fop libsaxon-java libxalan2-java libxslthl-java xalan gettext-doc libmail-box-perl perlsgml w3-recs opensp libxml2-utils
+      sudo apt-get install autotools-dev autoconf make m4 autopoint debhelper python3-all xsltproc itstool docbook-xsl docbook-xml dh-make docbook docbook-dsssl docbook-defguide dbtoepub docbook-xsl-doc-text docbook-xsl-saxon fop libsaxon-java libxalan2-java libxslthl-java xalan gettext-doc libmail-box-perl w3-recs opensp libxml2-utils
     displayName: 'Install Developer Base'
 
   - script: |
