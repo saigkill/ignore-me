@@ -1,5 +1,7 @@
 # ignore-me README
 
+[![Build Status](https://dev.azure.com/saigkill/ignore-me/_apis/build/status/ignore-me/ignore-me%20CI?branchName=master)](https://dev.azure.com/saigkill/ignore-me/_build/latest?definitionId=20&branchName=master)
+
 ## Introduction
 
 This program helps by creating a new ignore file in your project.
