@@ -10,7 +10,7 @@ jobs:
 
   steps:  
   - script: |
-      sudo apt-get install autotools-dev autoconf make m4      
+      sudo apt-get install autotools-dev autoconf make m4 autopoint
     displayName: 'Install Developer Base'
 
   - script: |
