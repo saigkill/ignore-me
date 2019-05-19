@@ -21,6 +21,12 @@ jobs:
       sudo make install
     displayName: 'Create package'  
 
+- job: Windows
+
+  pool:
+    vmImage: 'vs2017-win2016'
+
+  steps:    
   - task: gitmirror@0
     inputs:
-      GitRepoUrl: 'https://$(GithubPAT)@github.com/saigkill/ignore-me'
+    GitRepoUrl: 'https://$(GithubPAT)@github.com/saigkill/ignore-me'
