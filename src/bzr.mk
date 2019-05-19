@@ -1,7 +1,7 @@
 # bzr.mk, a small Makefile to autogenerate .bzrignore files
 # for autotools-based projects.
 #
-# Copyright 2017 Sascha Manns <Sascha.Manns@mailbox.org>
+# Copyright 2017-2019 Sascha Manns <Sascha.Manns@outlook.de>
 # Based on the git.mk file from Behdad Esfahbod <behdad@behdad.org>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -21,16 +21,7 @@
 BZR_MK_URL="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/bzr.mk"
 #
 # Bugs should be reported upstream at:
-#   https://bugs.launchpad.net/ignore-me
-#
-# Feature requests should be reported upstream at:
-#   https://blueprints.launchpad.net/ignore-me
-#
-# Ask a question:
-#   https://answers.launchpad.net/ignore-me
-#
-# Check the FAQs:
-#   https://answers.launchpad.net/ignore-me/+faqs
+#   https://github.com/saigkill/ignore-me/issues
 #
 # To use in your project, import this file in your bzr repo's toplevel
 # (run `copy-bzrmk` in the shell), then do "make -f bzr.mk".  This

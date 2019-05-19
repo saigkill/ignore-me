@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ignore-me\n"
-"Report-Msgid-Bugs-To: https://bugs.launchpad.net/ignore-me\n"
+"Report-Msgid-Bugs-To: https://github.com/saigkill/ignore-me/issues\n"
 "POT-Creation-Date: 2017-10-04 16:01+0200\n"
 "PO-Revision-Date: 2017-12-04 14:23+0000\n"
 "Last-Translator: Rodrigo Henrique <Unknown>\n"

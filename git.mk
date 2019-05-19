@@ -3,7 +3,7 @@
 #
 # Copyright 2009, Red Hat, Inc.
 # Copyright 2010,2011,2012,2013 Behdad Esfahbod
-# Copyright 2017 Sascha Manns <Sascha.Manns@mailbox.org>
+# Copyright 2017-2019 Sascha Manns <Sascha.Manns@outlook.de>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,16 +22,7 @@
 GIT_MK_URL ="https://raw.githubusercontent.com/saigkill/ignore-me/master/src/git.mk"
 #
 # Bugs should be reported upstream at:
-#   https://bugs.launchpad.net/ignore-me
-#
-# Feature requests should be reported upstream at:
-#   https://blueprints.launchpad.net/ignore-me
-#
-# Ask a question:
-#   https://answers.launchpad.net/ignore-me
-#
-# Check the FAQs:
-#   https://answers.launchpad.net/ignore-me/+faqs
+#   https://github.com/saigkill/ignore-me/issues
 #
 # To use in your project, import this file in your git repo's toplevel,
 # (copy-gitmk), then do "make -f git.mk".  This modifies all Makefile.am

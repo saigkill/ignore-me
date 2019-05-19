@@ -1,11 +1,11 @@
-# Copyright (C) 2017 Sascha Manns <Sascha.Manns@outlook.de>
+# Copyright (C) 2017-2019 Sascha Manns <Sascha.Manns@outlook.de>
 # This file is distributed under the MIT license.
 #
-# Sascha Manns <Sascha.Manns@outlook.de>, 2017.
+# Sascha Manns <Sascha.Manns@outlook.de>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: ignore-me 0.1.0\n"
-"Report-Msgid-Bugs-To: https://bugs.launchpad.net/ignore-me\n"
+"Report-Msgid-Bugs-To: https://github.com/saigkill/ignore-me/issues\n"
 "POT-Creation-Date: 2017-10-04 16:01+0200\n"
 "PO-Revision-Date: 2017-10-04 16:00+0200\n"
 "Last-Translator: Sascha Manns <Sascha.Manns@outlook.de>\n"

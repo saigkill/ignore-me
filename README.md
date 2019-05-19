@@ -1,9 +1,6 @@
-================
-ignore-me README
-================
+# ignore-me README
 
-Introduction
-============
+## Introduction
 
 This program helps by creating a new ignore file in your project.
 Currently it supports BZR, CVS, GIT, HG and SVN.
@@ -15,17 +12,14 @@ ignore-me is released under the GNU General Public License (GPL) version
 
     The official web site is: https://github.com/saigkill/ignore-me.
 
-Contributing
-============
+## Contributing
 
-Ideas
------
+### Ideas
 
 If have some good ideas for stuff that you want to see in this program
 you should check the TODO file first before sending email.
 
-Cool Hacks
-----------
+### Cool Hacks
 
 If you want to provide a cool hack, so please follow that proposals:
 
@@ -38,12 +32,11 @@ If you want to provide a cool hack, so please follow that proposals:
 
 -  It is better to use git format-patch command: git format-patch HEAD^
 
-Merging
--------
+### Merging
+
 Please base all Pull-Requests on the develop branch.
 
-Code of Conduct
----------------
+### Code of Conduct
 
 As contributors and maintainers of this project, we pledge to respect
 all people who contribute through reporting issues, posting feature
@@ -71,11 +64,10 @@ be reported by opening an issue or contacting one or more of the project
 maintainers.
 
 This Code of Conduct is adapted from the `Contributor
-Covenant <http://contributor-covenant.org/>`__, version 1.0.0, available
+Covenant http://contributor-covenant.org/, version 1.0.0, available
 at http://contributor-covenant.org/version/1/0/0/.
 
-Maintanance Policy
-------------------
+### Maintanance Policy
 
 I'm following the Semantic Versioning for its releases:
 (Major).(Minor).(Patch).
@@ -102,8 +94,7 @@ can easily upgrade to the most secure and feature rich experience. In
 order to make sure you can easily run the most recent stable release, we
 are working hard to keep the update process simple and reliable.
 
-Prequisites
------------
+# Prequisites
 
 For building and running ignore-me you need:
 
@@ -113,31 +104,26 @@ For building and running ignore-me you need:
 
 -  itstool
 
-Installation
-------------
+# Installation
 
 The Installation process is described on:
 https://github.com/saigkill/ignore-me/wiki
 
-Bug Reporting
--------------
+# Bug Reporting
 
 Bugs should be reported to https://github.com/saigkill/ignore-me/issues. You
 will need to create an account for yourself. See if is your problem is
 already reported.
 
-Feature Requests
-----------------
+# Feature Requests
 
 Feature Requests are welcome on:
 https://github.com/saigkill/ignore-me/issues
 
-Thanks
-------
+# Thanks
 
 Thanks Behdad Esfahbod for his initial development of git.mk.
 
-Ressources
-----------
+# Ressources
 
 -  *User Documentation*: <https://github.com/saigkill/ignore-me/wiki>

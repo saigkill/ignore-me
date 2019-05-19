@@ -1,0 +1,25 @@
+variables:
+- group: Standard
+
+jobs:
+
+- job: Linux
+
+  pool:
+    vmImage: 'ubuntu 16.04'
+
+  steps:  
+  - script: |
+      sudo apt-get install autotools-dev autoconf make m4      
+    displayName: 'Install Developer Base'
+
+  - script: |
+      ./autogen.sh
+      ./configure
+      make
+      make Install
+    displayName: 'Create package'  
+
+  - task: gitmirror@0
+    inputs:
+      GitRepoUrl: 'https://$(GithubPAT)@github.com/saigkill/ignore-me'
