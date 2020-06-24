@@ -1,6 +1,5 @@
 # ignore-me README
-
-[![Build Status](https://dev.azure.com/saigkill/ignore-me/_apis/build/status/ignore-me/ignore-me%20CI?branchName=master)](https://dev.azure.com/saigkill/ignore-me/_build/latest?definitionId=20&branchName=master)
+[![CI](https://github.com/saigkill/ignore-me/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/saigkill/ignore-me)
 
 ## Introduction
 
